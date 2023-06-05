@@ -12,14 +12,22 @@
 
         <!-- Styles -->
         @livewireStyles
-
+        @vite('resources/css/app.css')
     </head>
     <body class="antialiased">
 
         {{-- Counter component --}}
+
+        <div class="py-11"></div>
+
         @livewire('counter')
 
-        {{-- Counter component --}}
+        <div class="py-11"></div>
+
+        @livewire('contact-form')
+
+
+
         <!-- Scripts -->
         @livewireScripts
     </body>
